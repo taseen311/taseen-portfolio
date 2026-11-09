@@ -11,3 +11,18 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   letter-spacing: -0.01em;
 }
+
+@media print {
+  @page {
+    size: A4;
+    margin: 8mm 12mm;
+  }
+  html, body {
+    background: #ffffff !important;
+    color: #111111 !important;
+  }
+  main {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}

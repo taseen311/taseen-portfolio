@@ -19,7 +19,7 @@ export default function Navbar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-zinc-800 bg-[#090a0f]/90 backdrop-blur-md">
+    <header className="sticky top-0 z-50 w-full border-b border-zinc-800 bg-[#090a0f]/90 backdrop-blur-md print:hidden">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Brand */}
         <Link href="/" className="group flex items-center gap-3">

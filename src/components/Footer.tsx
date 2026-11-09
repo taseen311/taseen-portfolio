@@ -4,7 +4,7 @@ import { GithubIcon, LinkedinIcon, WhatsAppIcon } from "@/components/Icons";
 
 export default function Footer() {
   return (
-    <footer className="border-t border-zinc-800 bg-[#07080c] text-zinc-300">
+    <footer className="border-t border-zinc-800 bg-[#07080c] text-zinc-300 print:hidden">
       <div className="mx-auto max-w-7xl px-6 py-14">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
           {/* Brand */}
